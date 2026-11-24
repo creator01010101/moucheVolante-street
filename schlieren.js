@@ -346,10 +346,10 @@ function drawSchliereBodyLocal(item, alpha, hasAttachedFleck) {
     return;
   }
 
-  drawCloudLayer(item, 14, `rgba(68, 70, 84, ${0.24 * alpha})`, Math.max(4.4, thick * 3.9), 0);
-  drawCloudLayer(item, 10, `rgba(78, 80, 94, ${0.17 * alpha})`, Math.max(6.4, thick * 5.3), 1.8);
-  drawCloudLayer(item, 6.5, `rgba(110, 112, 126, ${0.17 * alpha})`, Math.max(2.1, thick * 1.8), 0);
-  drawCloudLayer(item, 4.5, `rgba(140, 142, 154, ${0.09 * alpha})`, Math.max(1.1, thick * 0.8), -1.2);
+  drawCloudLayer(item, 14, `rgba(56, 58, 72, ${0.24 * alpha})`, Math.max(4.4, thick * 3.9), 0);
+  drawCloudLayer(item, 10, `rgba(66, 68, 82, ${0.17 * alpha})`, Math.max(6.4, thick * 5.3), 1.8);
+  drawCloudLayer(item, 6.5, `rgba(98, 100, 114, ${0.17 * alpha})`, Math.max(2.1, thick * 1.8), 0);
+  drawCloudLayer(item, 4.5, `rgba(128, 130, 142, ${0.09 * alpha})`, Math.max(1.1, thick * 0.8), -1.2);
 
   ctx.filter = 'blur(16px)';
   ctx.strokeStyle = `rgba(64, 66, 80, ${0.075 * alpha})`;
