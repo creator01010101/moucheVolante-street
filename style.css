@@ -94,3 +94,8 @@ body > canvas:not(#scene):not(#defaultCanvas0) {
     black 100%);
   transform: translateZ(0);
 }
+
+#scene,
+#defaultCanvas0 {
+  filter: brightness(0.9);
+}
